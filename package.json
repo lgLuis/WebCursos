@@ -1,0 +1,28 @@
+{
+  "name": "webcursos",
+  "version": "1.0.0",
+  "description": "Proyecto con Sass, Gulp y Flexbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lgLuis/WebCursos.git"
+  },
+  "author": "LAG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lgLuis/WebCursos/issues"
+  },
+  "homepage": "https://github.com/lgLuis/WebCursos#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-sass": "^5.0.0"
+  },
+  "browserlist":[
+    ">1%",
+    "last 2 versions"
+  ]
+}
