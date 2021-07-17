@@ -15,5 +15,13 @@ function css() {
         .pipe(gulp.dest("css"));
 }
 
+function watchFiles(){
+    gulp.watch("scss/*.scss", css);
+
+
+}
+
+
 //REGISTAR FUNCIONES COMO TAREAS
 gulp.task("css", css);
+gulp.task("watch", watchFiles);
